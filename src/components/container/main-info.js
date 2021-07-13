@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import Card from "react-bootstrap/Card";
+import InfoSurvey from "./info/info-survey";
 
 class MainInfo extends Component {
   render() {
     return (
-      <div className="container" style={{ paddingTop: 15 }}>
+      <div className="container mt-5" style={{ paddingTop: 15 }}>
         <Card className="text-center">
           <Card.Header>Featured</Card.Header>
           <Card.Body>
@@ -21,6 +22,7 @@ class MainInfo extends Component {
           </Card.Body>
           <Card.Footer className="text-muted">1 days ago</Card.Footer>
         </Card>
+        <InfoSurvey />
       </div>
     );
   }

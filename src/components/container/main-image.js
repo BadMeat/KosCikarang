@@ -15,7 +15,7 @@ const styles = {
   justifyContent: "center",
   alignItems: "center",
   textAlign: "justify",
-  padding: 20,
+  padding: 20
 };
 
 class MainImage extends Component {
@@ -29,28 +29,11 @@ class MainImage extends Component {
             <Card.Text>{caption}</Card.Text>
           </Card.Body>
         </Card>
-        {/* <Figure>
-          <div
-            style={{
-              justifyContent: "center",
-              display: "flex",
-            }}
-          >
-            <Figure.Image
-              width={200}
-              alt="171x180"
-              src={props.source}
-              className="mobile"
-            />
-          </div>
-
-          <Figure.Caption>{props.caption}</Figure.Caption>
-        </Figure> */}
       </div>
     );
 
     return (
-      <div className="h-50 container" style={styles}>
+      <div className="h-50 mb-5 " style={styles}>
         <div className="row">
           <RenderImage
             source={kos8}
